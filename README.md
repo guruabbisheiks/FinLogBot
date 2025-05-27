@@ -7,9 +7,6 @@
 ## 🧭 Introduction
 
 In an era of increasing digital spending, tracking personal finances should be effortless. I decided to create a **Telegram bot that acts as my personal finance assistant**, intelligently logging and summarizing expenses from casual text inputs using **Google Gemini** and storing data in **Google Sheets**.
-
-> 📸 _Screenshot: Telegram bot in action showing an expense being logged_
-
 ---
 
 ## 🎯 Objective
@@ -33,7 +30,6 @@ The goal of this project was to:
 | **gspread** | Python-GSheets connector |
 | **dotenv** | Manage API keys/configs |
 
-> 📸 _Screenshot: Project folder showing key files (.env, bot.py, credentials.json)_
 
 ---
 
@@ -64,8 +60,6 @@ Go to [Google AI Studio](https://makersuite.google.com/app) to get your Gemini A
 - Validates and stores data in Google Sheets
 - Commands like `/summary` and `/breakdown` give useful financial insights
 
-> 📸 _Screenshot: `bot.py` open in Replit or local editor_  
-> 📸 _Screenshot: Response from Gemini API in logs_
 
 ---
 
@@ -83,7 +77,6 @@ Go to [Google AI Studio](https://makersuite.google.com/app) to get your Gemini A
 - **Local** for testing
 - **Replit** for always-on hosting (free tier available)
 
-> 📸 _Screenshot: Replit console running the bot_
 
 ---
 

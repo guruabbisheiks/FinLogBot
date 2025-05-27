@@ -89,11 +89,12 @@ def parse_expense(text):
     }
 
     try:
-        print(f"Sending request to Gemini API...")
+        print(f"Message:{text} -> Sending request to Gemini API...")
         response = requests.post(gemini_url_with_key, headers=headers, json=payload)
         response.raise_for_status()
         data = response.json()
-        print(f"Gemini API raw response: {json.dumps(data, indent=2)}")
+        print("Gemini API response received successfully.")
+        # print(f"Gemini API raw response: {json.dumps(data, indent=2)}")
 
         if data and data.get("candidates") and data["candidates"][0].get("content") and \
            data["candidates"][0]["content"].get("parts") and data["candidates"][0]["content"]["parts"][0].get("text"):

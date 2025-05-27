@@ -40,8 +40,6 @@ The goal of this project was to:
 Create a sheet with these headers:  
 `timestamp | description | category | amount | type`
 
-> 📸 _Screenshot: Your Google Sheet template_
-
 ### 2. Create a Telegram Bot
 
 Use [BotFather](https://t.me/BotFather) to create a bot and get the API token.

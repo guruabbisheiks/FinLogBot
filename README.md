@@ -1,8 +1,10 @@
 # Building a Personal Finance Telegram Bot with Gemini AI and Google Sheets
 
-*Published on May 26, 2025*
+*Published on May 27, 2025*
 
 ---
+
+**Medium Link:** [Refer this link for detailed Blog](https://medium.com/@guruabbisheik.in/building-a-personal-finance-telegram-bot-with-gemini-ai-and-google-sheets-d547a83a0925).
 
 ## 🧭 Introduction
 
@@ -73,7 +75,7 @@ Go to [Google AI Studio](https://makersuite.google.com/app) to get your Gemini A
 ## ☁️ Hosting Options
 
 - **Local** for testing
-- **Replit** for always-on hosting (free tier available)
+- **Python Anywhere** for always-on hosting (free tier available)
 
 
 ---
